@@ -1,0 +1,18 @@
+PROGRAM Hitung_Jumlah_Input_User
+{program ini merupakan program yang bertujuan untuk menghitung jumlah input sampai user ketik 0}
+
+DEKLARASI
+pilihan, total : integer
+
+ALGORITMA
+total <- 0
+
+while (true) do
+    read(pilihan)
+    if (pilihan == 0) then
+        break
+    endif
+    total <- total + pilihan
+endwhile
+
+write(total)

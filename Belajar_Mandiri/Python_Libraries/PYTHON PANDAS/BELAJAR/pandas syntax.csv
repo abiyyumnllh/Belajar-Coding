@@ -1,0 +1,51 @@
+df.sum() --> menjumlahkan total
+
+df.mean() --> mencari nilai rata-rata
+
+df.max() --> mencari nilai tertinggi di kelompk tersebut
+
+df.min() --> mencari nlai terkecil di kelompok tersebut
+
+df.count() --> menghitung ada berapa banyak baris di kelompok tersebut
+
+df.head() --> menampilkan baris teratas dari data
+
+df.info() --> meanmpilkan informasi ringkas dari data
+
+df.describe() --> menampilkan statistik dasar
+
+df[df["tahun_terbit"] > 2010] --> untuk memfilter data
+
+df["variable"] = data --> menambahkan kolom baru bernama "variabel" dan data baru bernama "data"
+
+df["variabel3"] = df["variabel1"] - df["variabel2"] --> menambah "variabel3" dengan datanya "variabel1" dikurangi "variabel2"
+
+df.drop("variabel", axis=1) --> menghapus kolom
+
+df.drop("variabel", axis=0) --> menghapus baris
+
+df.sort_values(by="variabel") --> mengurutkan dari kecil ke besar (A-Z atau 0-100)
+
+df.sort_values(by="variabel", ascending=False) --> mengurutkan dari kecil ke besar (A-Z atau 0-100)
+
+df.groupby("Kolom_Kategori")["Kolom_Angka"].fungsi_matematika() --> grouping dan operasi matematika
+
+df.isna() --> mendeteksi data yang kosong
+
+df.dropna() --> menghapus data kosong
+
+df.fillna() --> mengisi data kosong
+
+df.copy() --> membuat salinan agar data asli tidak rusak
+
+df_gabung = pd.concat([df_a, df_b]) --> menumpuk dua tabel yang sama dari atas ke bawah
+
+df_gabung = pd.merge(df_a, df_b, on="Key") --> menyambungkan tabel ke samping berdasarkan kolom kunci/key
+
+df = pd.read_csv("data.csv") --> membaca file csv 
+
+df = pd.read_excel("data.xlsx") --> membaca file excel
+
+df.to_csv("data.csv", index=False) --> menyimpan menjadi file csv
+
+df.to_excel("data.xlsx", index=False) --> menyimpan menjadi file excel

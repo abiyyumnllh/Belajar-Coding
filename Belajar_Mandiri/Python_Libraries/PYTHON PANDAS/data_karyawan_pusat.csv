@@ -1,0 +1,7 @@
+Nama,Departemen,Gaji_Pokok,Bonus,Status
+Andi,Sales,5000000,1000000.0,Kontrak
+Budi,IT,8000000,500000.0,Tetap
+Citra,Sales,5500000,,Kontrak
+Dewi,HR,6000000,700000.0,Tetap
+Eka,IT,8500000,500000.0,Tetap
+Fani,,4000000,200000.0,Kontrak

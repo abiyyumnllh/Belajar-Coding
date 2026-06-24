@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "koneksi_barbershop",
+            "database": "./databaseku.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}

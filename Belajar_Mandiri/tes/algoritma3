@@ -1,0 +1,24 @@
+PROGRAM Cek_Nilai_5_Siswa
+{program ini merupakan program yang bertujuan untuk cek nilai 5 siswa dan menentukan berapa jumlah siswa yang lulus dan tidak lulus}
+
+DEKLARASI
+i, nilai, totalLulus, totalTidakLulus : integer
+
+ALGORITMA
+totalLulus <- 0
+totalTidakLulus <- 0
+
+for i <- 1 to 5 do
+    read(nilai)
+
+    if (nilai >= 75) then
+        write ("lulus")
+        totalLulus++
+    else 
+        write ("tidak lulus")
+        totalTidakLulus++
+    endif
+endfor
+
+write(totalLulus)
+write(totalTidakLulus)

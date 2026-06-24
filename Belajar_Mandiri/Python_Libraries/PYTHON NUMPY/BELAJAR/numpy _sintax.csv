@@ -1,0 +1,47 @@
+array_1d = np.array ([1, 2, 3, 4, 5]) <-- membuat array 1d
+
+array_2d  = np.array([[1, 2, 3], [4, 5, 6]]) <-- membuat array 2d
+
+array_nol = np.zeros(5) <-- membuat array berisi angka kosong sebanyak 5 elemen
+
+array_urut = np.arange(0, 10, 2) <-- membuat array berurutan (mulai dari 0, berhenti sebelum 10, loncat 2)
+
+array_contoh.ndim <-- melihat jumlah dimensi array
+
+array_contoh.shape <-- melihat bentuk array dengan hasil (baris, kolom)
+
+array_contoh.size <-- melihat total jumlah elemen di dalam array
+
+array_contoh[1, 2] <-- mengambil angka dari array 2 dimensi (baris, kolom)
+
+array_1d[1:4] <-- mengambil nilai dari indeks ke 1 sampai ke 3 untuk array 1 dimensi
+
+array_contoh[:, 1:3] <-- mengambil nilai dari semua baris dan hanya kolom 1 sampai 2
+
+harga_diskon = harga_awal - 5000 <-- membuat semua nilai dalam array tersebut dikurangi 50000 (bisa perkalian, pengurangan, pembagian, dll)
+
+data_2d = data_1d.reshape(3, 4) <-- mengganti bentuk array yang awalnya 1 dimensi menjadi 2 dimensi dengan syarat jumlah baris dan elemen sesuai dengan total elemen
+
+jumlah_pelanggan = np.sum(data_pelanggan) <-- menghitung semua nilai dalam array
+
+rata_rata = np.mean(data_pelanggan) <-- menghitung rata rata nilai dalam array
+
+tertinggi = np.max(data_pelanggan) <-- menghitung nilai tertinggi
+
+terendah = np.min(data_pelanggan) <-- menghitung nilai terendah
+
+kondisi_ramai = data_pelanggan > 20 <-- membuat kondisi yang akan menghasilkan array berisi true/false
+
+hari_ramai = data_pelanggan[data_pelanggan > 20] <-- menampilkan nilai yang bernilai true
+
+kunjungan_minggu_1 = np.random.randint(15, 40, size=(2, 10)) <-- membuat 2 baris 10 kolom data acak antara 15 sampai 40
+
+probabilitas = np.random.rand(2, 10) <-- membuat 2 baris dan 10 kolom dengan nilai bilangan desimal antara 0 dan1 secara acak
+
+gabung_array = np.concatenate((array1, array2)) <-- menggabungkan dua array menjadi data yang panjang
+
+gabung_array = np.vstack((array1, array2)) <-- menggabungkan dua array menjadi data 2 dimensi
+
+hasil_broadcast = array1 + array2 <-- akan menambahkan nilai array2 ke semua nilai di array1
+
+hasil_dot = np.dot(array1, array2) <-- menghitung perkalian  matriks, jumlah kolom dan baris keduanya harus sama

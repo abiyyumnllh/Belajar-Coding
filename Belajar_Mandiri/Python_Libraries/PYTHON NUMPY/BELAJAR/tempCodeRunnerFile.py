@@ -1,0 +1,1 @@
+harga_diskon = harga_awal - 5000

@@ -1,0 +1,21 @@
+PROGRAM Menentukan_Grade_Murid
+{program ini merupakan program yang bertujuan untuk menentukan grade murid berdasarkan nilai yang di input}
+
+DEKLARASI
+nilai : integer
+
+ALGORITMA
+do
+    read(nilai)
+while (nilai < 0 || nilai > 100)
+
+if (nilai >= 90) then
+    write("A")
+else if (nilai >= 75) then
+    write("B")
+else if (nilai >= 60) then
+    write("C")
+else 
+    write("D")
+endif
+
