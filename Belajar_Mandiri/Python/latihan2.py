@@ -1,6 +1,5 @@
-def perkali_angka(angka1, angka2):
-    hasil = angka1 * angka2
-    return hasil
+angka_antrian = 1
 
-hasil_perkalian = perkali_angka(3, 8)
-print(f"hasi perkalian dua agka tersebut adalah {hasil_perkalian}")
+while angka_antrian <= 5:
+    print(angka_antrian)
+    angka_antrian += 1

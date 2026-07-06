@@ -1,4 +1,2 @@
-def sapa_nama(nama):
-    print(f"halo {nama}, tetap semangat belajar python ya!")
-    
-sapa_nama("Abiyyu")
+for i in range(10):
+    print("Saya calon AI Engineer")

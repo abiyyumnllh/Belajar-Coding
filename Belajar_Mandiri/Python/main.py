@@ -1,11 +1,13 @@
-def sapa_inisial():
-    print("halo selamat siang semuanya")
+for i in range (5):
+    i+=1
+    print(f"hitungan ke {i}")
     
-def hitung_luas_persegi(sisi):
-    luas = sisi * sisi
-    return luas
+print("for loop selesai!")
 
-sapa_inisial()
+baterai = 90
 
-hasil_kotak = hitung_luas_persegi(7)
-print(f"luas persegi dengan sisi 7 adalah {hasil_kotak}")
+while baterai > 0:
+    print(f"HP masih nyala, sisa baterai : {baterai}")
+    baterai -= 1
+    
+print("HP mati karena baterai habis")
