@@ -1,5 +1,6 @@
-angka_antrian = 1
+def kalikan_dua(angka):
+    hasil = angka * 2
+    return hasil
+jawaban_saya = kalikan_dua(10)
 
-while angka_antrian <= 5:
-    print(angka_antrian)
-    angka_antrian += 1
+print(jawaban_saya)
